@@ -1,0 +1,36 @@
+    <div class="container">
+    <div class="row">
+    
+    <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter first name" [(ngModel)]="common.e.name">
+      </div>
+      <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter user name" [(ngModel)]="common.e.uname">
+      </div>
+    
+    </div>
+
+    <div class="container">
+        <div class="row">
+        
+        <div class="form-group col-md-6">
+              <input type="text" class="form-control"  placeholder="Enter area name" [(ngModel)]="common.e.addr.areaname">
+          </div>
+          <div class="form-group col-md-6">
+              <input type="text" class="form-control"  placeholder="Enter city name" [(ngModel)]="common.e.addr.cityname">
+          </div>
+        
+        </div>
+    
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Enter password" [(ngModel)]="common.e.password">
+    </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-success btn-lg btn-block" (click)="postData(common.e)">Submit</button>
+      </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-warning btn-lg btn-block" (click)="resetData()">reset</button>
+      </div>
+    </div>

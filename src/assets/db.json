@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "akshay",
+      "uname": "akshay@123",
+      "password": "ak@123",
+      "addr": {
+        "areaname": "karve",
+        "cityname": "pune"
+      }
+    },
+    {
+      "id": 2,
+      "name": "aks",
+      "uname": "aks@123",
+      "password": "aks@123",
+      "addr": {
+        "areaname": "warje",
+        "cityname": "pune"
+      }
+    },
+    {
+      "id": 3,
+      "name": "ram",
+      "uname": "ram",
+      "password": "5555",
+      "addr": {
+        "areaname": "nagar",
+        "cityname": "pune"
+      }
+    }
+  ]
+}
